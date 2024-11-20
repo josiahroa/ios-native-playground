@@ -11,3 +11,5 @@ Step 3: I created the `WebViewNativeComponent.ts` file in the `specs` folder. Th
 Step 4: I created the `RCTWebView.h` and `RCTWebView.mm` files in the `ios/WebView` folder. These are the native implementation of the WebView component. I then linked the native implementation in the `AppDelegate.mm` file using the `thirdPartyFabricComponents` dictionary.
 
 Step 5: I added the WebView component to the `App.tsx` file so that I can test it.
+
+Reflection: This was a cool project to work on. However, I realized at the end that I will not be able to use this in my production apps because I am using Expo. I would have to eject to use this feature. With that being said, I'm glad that I am aware now of Fabric Native Components.
